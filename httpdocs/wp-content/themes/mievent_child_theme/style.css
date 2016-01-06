@@ -1,0 +1,14 @@
+/******************************************************************
+Theme Name: MiEvent Child Theme (Multia-Studio)
+Theme URI: http://multia.in/theme/wordpress/mievent
+Description:  Child Theme
+Author: Multia-Studio
+Template: wp_theme_mievent
+Author URI: http://multia.in
+Version: 1.0
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+License: Multia-Studio
+License URI: http://multia.in
+*/
+@import url("../wp_theme_mievent/style.css");
