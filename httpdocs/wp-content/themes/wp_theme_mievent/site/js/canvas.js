@@ -96,7 +96,7 @@ jQuery(window).load(function() {
         })();
 
         function init() {
-            _this.pos.x = width*0.75;
+            _this.pos.x = width*0.5;
             _this.pos.y = height*0.5-20;
             _this.coords[0].x = -10+Math.random()*40;
             _this.coords[0].y = -10+Math.random()*40;
