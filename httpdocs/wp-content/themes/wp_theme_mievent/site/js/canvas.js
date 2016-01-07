@@ -96,14 +96,14 @@ jQuery(window).load(function() {
         })();
 
         function init() {
-            _this.pos.x = width*0.5;
-            _this.pos.y = height*0.5-20;
-            _this.coords[0].x = -10+Math.random()*100;
-            _this.coords[0].y = -10+Math.random()*100;
-            _this.coords[1].x = -10+Math.random()*100;
-            _this.coords[1].y = -10+Math.random()*100;
-            _this.coords[2].x = -10+Math.random()*100;
-            _this.coords[2].y = -10+Math.random()*100;
+            _this.pos.x = width*0.75;
+            _this.pos.y = height*0.75-20;
+            _this.coords[0].x = -10+Math.random()*40;
+            _this.coords[0].y = -10+Math.random()*40;
+            _this.coords[1].x = -10+Math.random()*40;
+            _this.coords[1].y = -10+Math.random()*40;
+            _this.coords[2].x = -10+Math.random()*40;
+            _this.coords[2].y = -10+Math.random()*40;
             _this.scale = 0.1+Math.random()*0.3;
             _this.color = colors[Math.floor(Math.random()*colors.length)];
             setTimeout(function() { _this.alpha = 0.8; }, 10);
