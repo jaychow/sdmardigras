@@ -2,7 +2,7 @@ jQuery(window).load(function() {
 (function() {
 
     var width, height, largeHeader, canvas, ctx, triangles, target, animateHeader = true;
-    var colors = ['252,210,17', '82,61,110', '40,144,29'];
+    var colors = ['252,210,17', '157,116,210', '40,144,29'];
 
     // Main
     initHeader();
