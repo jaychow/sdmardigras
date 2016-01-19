@@ -25,7 +25,9 @@ if(!empty($event_slider) )
 {
 	echo '<div id="home_slider">';
 	echo do_shortcode('[hero_background height="650px" logo_position="banner" slider_id="'.$event_slider.'"]');
+	echo do_shortcode('[hero_background height="650px" logo_position="banner" slider_id="'.$event_slider.'"]');
 	echo '</div>';
+
 }?>
 <div id="events" class="section-padding">
 	<div class="col-lg-12 align-center nopadding">
