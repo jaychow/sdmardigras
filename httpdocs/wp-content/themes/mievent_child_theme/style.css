@@ -12,10 +12,5 @@ License: Multia-Studio
 License URI: http://multia.in
 */
 @import url("../wp_theme_mievent/style.css");
-.slider_inner h1{
-    text-shadow: 0px 0px 15px #911BDA;
-}
-.slider_inner h2{
-    text-shadow: 0px 0px 15px #911BDA;
-    font-weight:bold;
-}
+
+
