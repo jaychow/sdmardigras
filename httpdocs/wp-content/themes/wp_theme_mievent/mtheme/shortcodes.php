@@ -652,13 +652,23 @@ function mtheme_event_intro($atts, $content=null) {
 	}
 	
 	$out.='<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">';
-	$out.='<div class="row">';
-	$out.='<div class="col-lg-8 align-center about">';
-	$out.='<h1 style="color:'.esc_attr($heading_color).'">'.mtheme_html($title).'</h1>';
-	$out.='<hr>';
-	$out.='<p style="color:'.esc_attr($content_color).'">'.mtheme_html($content).'</p>';
-	$out.='</div>';
-	$out.='</div>';
+		$out.='<div class="row">';
+			$out.='<div class="col-lg-8 align-center about">';
+				$out.='<h1 style="color:'.esc_attr($heading_color).'">'.mtheme_html($title).'</h1>';
+				$out.='<hr>';
+				$out.='<p style="color:'.esc_attr($content_color).'">'.mtheme_html($content).'</p>';
+			$out.='</div>';
+		$out.='</div>';
+		$out.='<div class="row">';
+			$out.='<div class="col-xs-6">';
+				$out.='<div>';
+				$out.='</div>';
+			$out.='</div>';
+			$out.='<div class="col-xs-6">';
+				$out.='<div>';
+				$out.='</div>';
+			$out.='</div>';
+		$out.='</div>';
 	$out.='</div>';
 	$out.='</section>';
 	

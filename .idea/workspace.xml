@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01763374-121a-4437-90b0-32bd47b6a778" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/LICENSE.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/akismet.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/akismet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/akismet.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/akismet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/form.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/_inc/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/akismet.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/akismet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/class.akismet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/config.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/get.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/get.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/notice.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/notice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/start.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/stats.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/stats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/strict.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/views/strict.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/wrapper.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/akismet/wrapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/admin.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/css/styles.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/editor.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/capabilities.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/capabilities.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/contact-form-template.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/contact-form-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/contact-form.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/controller.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/css/styles.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/formatting.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/integration.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/integration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery.ui.theme.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery.ui.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/l10n.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/l10n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/mail.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/pipe.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/pipe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/shortcodes.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/shortcodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/submission.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/submission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/upgrade.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/validation.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/includes/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/languages/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/languages/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/license.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/acceptance.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/acceptance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/akismet.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/akismet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/count.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/count.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/date.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/file.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/flamingo.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/flamingo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/jetpack.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/listo.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/listo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/number.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/quiz.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/quiz.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/recaptcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/response.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/submit.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/submit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/text.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/textarea.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/modules/textarea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/settings.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/uninstall.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/contact-form-7/wp-contact-form-7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/hello.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/hello.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/languages/wordpress-importer.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/languages/wordpress-importer.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/parsers.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/parsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/tmp-wordpress-importer-readme.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/tmp-wordpress-importer-readme.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/wordpress-importer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/plugins/wordpress-importer/wordpress-importer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/mievent_child_theme/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/mievent_child_theme/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/404.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/archive.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/author-bio.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/author-bio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/comments.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-link.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-none.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/editor-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/ie.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/css/ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/footer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/COPYING.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/Genericons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/genericons/genericons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/header.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/image.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/back-compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/custom-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/customizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/inc/template-tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/color-scheme-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/customize-preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/functions.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/html5.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/html5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/languages/twentyfifteen.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/languages/twentyfifteen.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/rtl.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/sidebar.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/single.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfifteen/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/404.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/archive.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/author.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/author.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/category.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/comments.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-aside.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-aside.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-audio.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-audio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-featured-post.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-featured-post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-gallery.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-image.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-link.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-none.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-quote.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-quote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-video.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content-video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/css/editor-style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/css/editor-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/css/ie.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/css/ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/featured-content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/featured-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/footer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/COPYING.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/COPYING.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/LICENSE.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/README.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/genericons.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/genericons/genericons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/header.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/image.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/images/pattern-dark.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/images/pattern-dark.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/images/pattern-light.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/images/pattern-light.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/back-compat.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/back-compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/custom-header.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/custom-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/customizer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/customizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/featured-content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/featured-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/template-tags.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/template-tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/widgets.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/inc/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/customizer.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/featured-content-admin.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/featured-content-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/functions.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/html5.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/html5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/keyboard-image-navigation.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/keyboard-image-navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/slider.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/js/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/languages/twentyfourteen.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/languages/twentyfourteen.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page-templates/contributors.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page-templates/contributors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page-templates/full-width.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page-templates/full-width.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/rtl.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar-content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar-footer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar-footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/single.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/tag.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/taxonomy-post_format.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentyfourteen/taxonomy-post_format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/404.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/archive.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/comments.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/editor-style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/editor-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie7.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie8.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/css/ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/footer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/COPYING.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/COPYING.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/Genericons.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/Genericons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/LICENSE.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/README.md" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/genericons.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/genericons/genericons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/header.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/image.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/back-compat.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/back-compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/customizer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/customizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/template-tags.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/inc/template-tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/color-scheme-control.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/color-scheme-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/customize-preview.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/customize-preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/functions.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/html5.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/html5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/languages/twentysixteen.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/languages/twentysixteen.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/rtl.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/searchform.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/searchform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/sidebar-content-bottom.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/sidebar-content-bottom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/sidebar.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/single.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/biography.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/biography.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-none.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-single.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content-single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/twentysixteen/template-parts/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/404.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/category.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/comments.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-blog.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-comment.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-post.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/content-post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/footer.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/header-banner-logo.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/header-banner-logo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/includes/class-tgm-plugin-activation.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/includes/class-tgm-plugin-activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/includes/plugins.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/includes/plugins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/en.po" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/en.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/hi_IN.po" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/hi_IN.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/mtheme.pot" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/languages/mtheme.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/genericons.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/genericons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/icon_picker.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/icon_picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/jquery-ui-timepicker-addon.min.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/jquery-ui-timepicker-addon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/jquery-ui.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/mtheme.texameta.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/mtheme.texameta.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/images/captcha/captcha.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/images/captcha/captcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/icon_picker.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/icon_picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/jquery-ui-timepicker-addon.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/jquery-ui-timepicker-addon.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/jquery-ui.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.interface.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.popup.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.shortcode.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.shortcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.texameta.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/assets/js/mtheme.texameta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.core.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.form.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.interface.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.interface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.mailchimp.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.mailchimp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.shortcode.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.sidebar.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.style.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.style.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.texameta.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/mtheme.texameta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/widgets/mtheme.authors.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/widgets/mtheme.authors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/widgets/mtheme.comments.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/classes/widgets/mtheme.comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/config.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/functions.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/shortcodes.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/shortcodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/templates/index.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/templates/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/templates/popup.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/templates/popup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/page.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/readme.txt" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/search.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single-event.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single-event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single-event_slider.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single-event_slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/animate.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/flexslider.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/gridgallery.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/gridgallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/jquery.countdown.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/jquery.countdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/schedule.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/schedule.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/superslides.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/superslides.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/venobox.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/css/venobox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/EasePack.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/EasePack.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/TweenLite.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/TweenLite.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/astronomy-init.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/astronomy-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/canvas.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/cbpFWTabs.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/cbpFWTabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/cbpGridGallery.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/cbpGridGallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/classie.grid.gallery.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/classie.grid.gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/classie.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/classie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/hammer.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/hammer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/html5shiv.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/init.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery-1.11.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery-ui-1.10.4.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery-ui-1.10.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.countdown.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.countdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.flexslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.mobile-1.4.3.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.mobile-1.4.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.nicescroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.particleground.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.particleground.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.placeholder.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.placeholder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.plugin.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.superslides.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.superslides.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.tubular.1.0.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jquery.tubular.1.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.core.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.slider.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.slider.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.utils.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/jssor.utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modalEffects.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modalEffects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modernizr.gridgallery.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modernizr.gridgallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modernizr.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/nlform.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/nlform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/notifyMe.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/notifyMe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/okvideo.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/okvideo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rAF.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rAF.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rain-init.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rain-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rainyday.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/rainyday.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/respond.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/smooth-scroll.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/smooth-scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/snowfall-init.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/snowfall-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/sponsor_init.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/sponsor_init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/venobox.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/venobox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/wow.min.js" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/site/js/wow.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/style.css" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/tag.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-event-landing.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-event-landing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-events.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-fullwidth.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-fullwidth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-posts.php" afterPath="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-posts.php" />
+    </list>
+    <ignored path="sdmardigras.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sdmardigras" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="template-event-landing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-event-landing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shortcodes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/shortcodes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1463413">
+              <caret line="663" column="30" selection-start-line="663" selection-start-column="30" selection-end-line="663" selection-end-column="30" />
+              <folding>
+                <marker date="1453267393458" expanded="true" signature="21934:21957" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="22125:22149" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="35663:35669" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="36375:36381" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="37041:37047" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="37305:37333" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="39884:39979" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="39992:40027" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="43395:43490" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="43503:43538" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="48769:48779" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="49303:49313" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="51418:51453" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="62030:62036" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="84118:84220" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="118585:118605" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="119153:119173" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="119718:119738" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="120489:120503" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="121045:121059" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="121598:121612" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="144394:144414" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="145197:145211" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="149109:149119" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="149345:149355" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="149589:149599" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="154233:154265" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="163424:163481" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="163625:163685" placeholder="..." />
+                <marker date="1453267393458" expanded="true" signature="164334:164394" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17142858">
+              <caret line="2516" column="16" selection-start-line="2516" selection-start-column="16" selection-end-line="2516" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/mievent_child_theme/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-event-landing.php" />
+        <option value="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/shortcodes.php" />
+        <option value="$PROJECT_DIR$/httpdocs/wp-content/themes/mievent_child_theme/style.css" />
+        <option value="$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp_theme_mievent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp_theme_mievent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdmardigras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mievent_child_theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01763374-121a-4437-90b0-32bd47b6a778" name="Default" comment="" />
+      <created>1453266680003</created>
+      <option name="number" value="Default" />
+      <updated>1453266680003</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="style commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="style commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1453267015922" expanded="true" signature="17029:17116" placeholder="SELECT count... ${$wpdb-&gt;options}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/template-event-landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/mtheme/shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1463413">
+          <caret line="663" column="30" selection-start-line="663" selection-start-column="30" selection-end-line="663" selection-end-column="30" />
+          <folding>
+            <marker date="1453267393458" expanded="true" signature="21934:21957" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="22125:22149" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="35663:35669" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="36375:36381" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="37041:37047" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="37305:37333" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="39884:39979" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="39992:40027" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="43395:43490" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="43503:43538" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="48769:48779" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="49303:49313" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="51418:51453" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="62030:62036" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="84118:84220" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="118585:118605" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="119153:119173" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="119718:119738" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="120489:120503" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="121045:121059" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="121598:121612" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="144394:144414" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="145197:145211" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="149109:149119" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="149345:149355" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="149589:149599" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="154233:154265" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="163424:163481" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="163625:163685" placeholder="..." />
+            <marker date="1453267393458" expanded="true" signature="164334:164394" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/mievent_child_theme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpdocs/wp-content/themes/wp_theme_mievent/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17142858">
+          <caret line="2516" column="16" selection-start-line="2516" selection-start-column="16" selection-end-line="2516" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
