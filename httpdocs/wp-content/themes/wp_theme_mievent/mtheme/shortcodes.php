@@ -3866,7 +3866,10 @@ function hero_background($atts, $content=null) {
 		// SD Mardi Gras Info
 		$contentOut.='<div class="container align-center ticket-options">';
 			$contentOut.='<div class="row">';
-				$contentOut.='<div class="col-xs-12 col-sm-5 ticket-option">';
+				$contentOut.='<div class="col-xs-6 col-sm-5 ticket-option">';
+					$contentOut.='<div class="social-icons">';
+						$contentOut .= '<a href="https://www.facebook.com/events/476822869190142/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/ClubVIPSD" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+					$contentOut.='</div>';
 					$contentOut.='<div class="text-center">';
 						$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/sdmardigras-logo.jpg" alt="San Diego Mardi Gras Block Party, Parade & Celebration Presented by Tickled Pink Production"/>';
 					$contentOut.='</div>';
@@ -3877,7 +3880,10 @@ function hero_background($atts, $content=null) {
 						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/gaslampmardigras/tickets" target="_blank"">Buy Tickets</a>';
 					$contentOut.='</div>';
 				$contentOut.='</div>';
-			$contentOut.='<div class="col-xs-12 col-sm-5 col-sm-offset-2 ticket-option">';
+			$contentOut.='<div class="col-xs-6 col-sm-5 col-sm-offset-2 ticket-option">';
+				$contentOut.='<div class="social-icons">';
+					$contentOut .= '<a href="https://www.facebook.com/events/1103032579731678/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+				$contentOut.='</div>';
 				$contentOut.='<div class="text-center">';
 					$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/fat-tuesday-logo.jpg" alt="10th Annual San Diego Fat Tuesday Party Gras Presented by Club VIP and Gaslamp’s Top Nightclubs, Restaurants & Bars"/>';
 				$contentOut.='</div>';
