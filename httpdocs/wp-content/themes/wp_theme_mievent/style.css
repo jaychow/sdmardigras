@@ -5210,6 +5210,7 @@ ul.legals li:last-child::after {
 }
 .slider_inner_content .ticket-option{
     padding-bottom:30px;
+    margin-top:30px;
 }
 .slider_inner_content .event_time{
     font-weight:bold;
@@ -5220,7 +5221,7 @@ ul.legals li:last-child::after {
 }
 .btn-effect:after {
     background: none repeat scroll 0 0 #7429AA;
-
-.ticket-options{
-    margin-top:30px;
+}
+.slider_inner_content .centerhr{
+    margin-top: 20px;
 }
