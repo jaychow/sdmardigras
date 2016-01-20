@@ -2197,7 +2197,7 @@ hr {
 .home_slider {
 	position: relative;
 	overflow: hidden;
-    min-height:768px;
+    min-height:870px;
 }
 .landing-text-pos.slider_content {
     -moz-user-select: none;
