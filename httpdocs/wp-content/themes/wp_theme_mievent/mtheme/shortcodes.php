@@ -2749,7 +2749,7 @@ function mtheme_packages($atts) {
 			switch($totalPackages-$packageNo)
 			{
 				case 3: $out.='<li class="col-lg-1_5 col-sm-0 col-xs-0"></li>';break;
-				case 2: $out.='<li class="col-lg-3 col-md-3 col-sm-0 col-xs-0"></li>';break;
+				case 2: $out.='<li class="col-lg-0 col-md-0 col-sm-0 col-xs-0"></li>';break;
 				case 1: $out.='<li class="col-lg-4_5 col-sm-0 col-xs-0"></li>';break;
 			}
 		}
