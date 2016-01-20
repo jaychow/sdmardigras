@@ -2522,13 +2522,7 @@ h2.notify{
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
-.slider_inner h1{
-    text-shadow: 0px 0px 15px #911BDA;
-}
-.slider_inner h2{
-    text-shadow: 0px 0px 15px #911BDA;
-    font-weight:bold;
-}
+
 .coming-landing-text-pos h1{
     font-size: 3.5em;
     font-weight: 700;
@@ -5203,4 +5197,25 @@ ul.legals li:last-child::after {
 }
 .blog{
 	padding-bottom: 35px;
+}
+.img-responsive{
+    display: inline-block;
+}
+.slider_inner_content h1{
+    text-shadow: 0px 0px 15px #911BDA;
+}
+.slider_inner_content h2{
+    text-shadow: 0px 0px 15px #DAB11B;
+    font-weight:bold;
+}
+.slider_inner_content .ticket-option{
+    padding-bottom:30px;
+}
+.slider_inner_content .event_time{
+    font-weight:bold;
+    color:#fff;
+    text-shadow: 0px 0px 15px #911BDA;
+}
+.ticket-options{
+    margin-top:30px;
 }
