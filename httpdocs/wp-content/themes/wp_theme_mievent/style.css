@@ -2580,6 +2580,9 @@ h2.notify{
 
 .scroll-header {
 	background: none repeat scroll 0 0 #0f1726;
+    -webkit-box-shadow: 0 0px 20px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0 0px 20px 0px rgba(0,0,0,0.35);
+    box-shadow: 0 0px 20px 0px rgba(0,0,0,0.35);
 }
 
 .header {
