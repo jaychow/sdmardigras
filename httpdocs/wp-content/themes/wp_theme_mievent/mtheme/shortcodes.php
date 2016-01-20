@@ -652,13 +652,13 @@ function mtheme_event_intro($atts, $content=null) {
 	}
 	
 	$out.='<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">';
-	$out.='<div class="row">';
-	$out.='<div class="col-lg-8 align-center about">';
-	$out.='<h1 style="color:'.esc_attr($heading_color).'">'.mtheme_html($title).'</h1>';
-	$out.='<hr>';
-	$out.='<p style="color:'.esc_attr($content_color).'">'.mtheme_html($content).'</p>';
-	$out.='</div>';
-	$out.='</div>';
+		$out.='<div class="row">';
+			$out.='<div class="col-lg-8 align-center about">';
+				$out.='<h1 style="color:'.esc_attr($heading_color).'">'.mtheme_html($title).'</h1>';
+				$out.='<hr>';
+				$out.='<p style="color:'.esc_attr($content_color).'">'.mtheme_html($content).'</p>';
+			$out.='</div>';
+		$out.='</div>';
 	$out.='</div>';
 	$out.='</section>';
 	
@@ -2749,7 +2749,7 @@ function mtheme_packages($atts) {
 			switch($totalPackages-$packageNo)
 			{
 				case 3: $out.='<li class="col-lg-1_5 col-sm-0 col-xs-0"></li>';break;
-				case 2: $out.='<li class="col-lg-3 col-md-3 col-sm-0 col-xs-0"></li>';break;
+				case 2: $out.='<li class="col-lg-0 col-md-0 col-sm-0 col-xs-0"></li>';break;
 				case 1: $out.='<li class="col-lg-4_5 col-sm-0 col-xs-0"></li>';break;
 			}
 		}
@@ -2778,7 +2778,7 @@ function mtheme_packages($atts) {
 		$button_heading_color=MthemeCore::getPostMeta(get_the_ID(),$pre."button_heading_color",MthemeCore::getOption("heading_color","#ffffff"));
 		
 		$out.='<li>';
-		$out.='<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">';
+		$out.='<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">';
 		$out.='<ul class="planContainer pack-'.$packageNo.'" style="background-color:'.esc_attr($content_background_color).'">';
 		$out.='<li class="title">';
 		$out.='<h2 style="background-color:'.esc_attr($primary_heading_background_color).';color:'.esc_attr($heading_color).';">';
@@ -3863,6 +3863,32 @@ function hero_background($atts, $content=null) {
 				$contentOut.='</div>';	
 			}
 		}
+		// SD Mardi Gras Info
+		$contentOut.='<div class="container align-center ticket-options">';
+			$contentOut.='<div class="row">';
+				$contentOut.='<div class="col-xs-12 col-sm-5 ticket-option">';
+					$contentOut.='<div class="text-center">';
+						$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/sdmardigras-logo.jpg" alt="San Diego Mardi Gras Block Party, Parade & Celebration Presented by Tickled Pink Production"/>';
+					$contentOut.='</div>';
+					$contentOut.='<div class="event_time">';
+						$contentOut.='Saturday, February 6, 2016';
+					$contentOut.='</div>';
+					$contentOut.='<div>';
+						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/gaslampmardigras/tickets" target="_blank"">Buy Tickets</a>';
+					$contentOut.='</div>';
+				$contentOut.='</div>';
+			$contentOut.='<div class="col-xs-12 col-sm-5 col-sm-offset-2 ticket-option">';
+				$contentOut.='<div class="text-center">';
+					$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/fat-tuesday-logo.jpg" alt="10th Annual San Diego Fat Tuesday Party Gras Presented by Club VIP and Gaslamp’s Top Nightclubs, Restaurants & Bars"/>';
+				$contentOut.='</div>';
+				$contentOut.='<div class="event_time">';
+					$contentOut.='Tuesday, February 9, 2016';
+				$contentOut.='</div>';
+				$contentOut.='<div>';
+					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/san-diego-fat-tuesday/tickets" target="_blank"">Buy Tickets</a>';
+				$contentOut.='</div>';
+			$contentOut.='</div>';
+		$contentOut.='</div>';
 		if( $coming_soon=='true' ) {
 			$contentOut.='<div class="container" style="padding-top:'.$slider_date_padding_top.'px;">';
 			
