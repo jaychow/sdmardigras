@@ -2778,7 +2778,7 @@ function mtheme_packages($atts) {
 		$button_heading_color=MthemeCore::getPostMeta(get_the_ID(),$pre."button_heading_color",MthemeCore::getOption("heading_color","#ffffff"));
 		
 		$out.='<li>';
-		$out.='<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">';
+		$out.='<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">';
 		$out.='<ul class="planContainer pack-'.$packageNo.'" style="background-color:'.esc_attr($content_background_color).'">';
 		$out.='<li class="title">';
 		$out.='<h2 style="background-color:'.esc_attr($primary_heading_background_color).';color:'.esc_attr($heading_color).';">';
