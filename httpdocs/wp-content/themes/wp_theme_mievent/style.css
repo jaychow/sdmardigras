@@ -5218,6 +5218,9 @@ ul.legals li:last-child::after {
     font-size: 1.7rem;
     padding-bottom: 1rem;
 }
+.btn-effect:after {
+    background: none repeat scroll 0 0 #7429AA;
+
 .ticket-options{
     margin-top:30px;
 }
