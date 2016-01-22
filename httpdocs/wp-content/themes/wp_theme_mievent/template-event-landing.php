@@ -439,7 +439,7 @@ foreach($events['external_link'] as $ID => $event) {
 	{	
 		if(isset($event['el_link_url']) && empty($event['el_link_url']))
 			$event['el_link_url']="#";
-		$menu.='<li><a href="'.$event['el_link_url'].'">'.$event['el_link_title'].'</a></li>';
+		$menu.='<li><a href="'.$event['el_link_url'].'" target="_blank">'.$event['el_link_title'].'</a></li>';
 	}
 }
 
