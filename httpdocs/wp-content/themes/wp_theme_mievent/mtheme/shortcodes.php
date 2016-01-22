@@ -1252,6 +1252,7 @@ function mtheme_ThreeDImageSlider($atts) {
 
 	$indicatorOut .= '</ol>';
 
+	$out .= '</div>';
 	$out .= $indicatorOut . $carouselOut;
 
 
@@ -1260,6 +1261,7 @@ function mtheme_ThreeDImageSlider($atts) {
 		$out .= '<h3>No Slides</h3>';
 		$out .= '</figure></li>';
 	}
+
 	$out .= '<a class="left carousel-control" href="#' . esc_attr($unique_id) . '" role="button" data-slide="prev">
         <span class="fa fa-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
