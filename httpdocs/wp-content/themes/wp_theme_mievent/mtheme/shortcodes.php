@@ -1252,7 +1252,6 @@ function mtheme_ThreeDImageSlider($atts) {
 
 	$indicatorOut .= '</ol>';
 
-	$out .= '</div>';
 	$out .= $indicatorOut . $carouselOut;
 
 
@@ -1261,7 +1260,7 @@ function mtheme_ThreeDImageSlider($atts) {
 		$out .= '<h3>No Slides</h3>';
 		$out .= '</figure></li>';
 	}
-
+	$out.= '</div>';
 	$out .= '<a class="left carousel-control" href="#' . esc_attr($unique_id) . '" role="button" data-slide="prev">
         <span class="fa fa-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -1270,7 +1269,7 @@ function mtheme_ThreeDImageSlider($atts) {
         <span class="fa fa-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>';
-	$out .= "</div></div></div>";
+	$out .= "</div></div>";
 	$out .= '<script type="text/javascript">
 		window.globalBSGalleryActive ="yes";
 		window.globalBSGallery.push(' . esc_attr($unique_id) . ')
