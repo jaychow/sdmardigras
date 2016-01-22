@@ -4436,7 +4436,10 @@ ul.legals li:last-child::after {
 .planContainer ul li {
     margin-bottom: 0px;
 }
-
+.carousel-inner .left,
+.carousel-inner .right{
+    float:none;
+}
 
 @media screen and (max-width:1600px){
 	.d-sch {
