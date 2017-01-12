@@ -4890,6 +4890,11 @@ ul.legals li:last-child::after {
 	}
 
 }
+@media screen and (max-width:992px) {
+    .landing-text-pos h1 {
+        font-size: 2.2em;
+    }
+}
 
 @media screen and (max-width:767px){
 	body {
