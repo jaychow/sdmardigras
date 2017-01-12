@@ -772,16 +772,16 @@ function mtheme_event_features_fun($atts, $content=null) {
 	}
 	else if($gallery=='show')
 	{
-		$class.=' col-lg-9 col-md-12';
+		$class.=' col-lg-12 col-md-12';
 		$head_out='<div class="'.esc_attr($class).'">';
-		$head_out.='<div style="float: left;width: 75%;">';
+		$head_out.='<div>';
 		$foot_out.='</div>';
 	}
 	else if($video=='show')
 	{
-		$class.=' col-lg-9 col-md-12';
+		$class.=' col-lg-12 col-md-12';
 		$head_out='<div class="'.esc_attr($class).'">';
-		$head_out.='<div style="float: right;width: 75%;">';
+		$head_out.='<div>';
 		$foot_out.='</div>';
 	}
 	 
@@ -874,7 +874,7 @@ function mtheme_event_features($atts, $content=null) {
 	}
 	
 	$count=0;
-	$class="col-md-4 ";		
+	$class="col-md-4 ";
 	if(!empty($event_duration) || !empty($event_duration_title) || !empty($event_duration_brief)) $count++;
 	if(!empty($event_no_speakers) || !empty($event_speakers_title) || !empty($event_speakers_brief)) $count++;
 	if(!empty($event_no_tech) || !empty($event_tech_title) || !empty($event_tech_brief)) $count++;
@@ -1206,95 +1206,75 @@ function mtheme_ThreeDImageSlider($atts) {
 	{
 		$content_color=MthemeCore::getOption('content_color','#5f6061');	
 	}
-	
-	$out='<div class="col-lg-3 col-sm-12 nopadding">';
-	$out.='<div id="'.esc_attr($unique_id).'" class="grid-gallery"><section class="grid-wrap">';
-	$out.='<div class="grid-gal">';	
-	
-	$hoverId='';
-	if($hover_active=='yes')
-	{
-		$hoverId='threeDImage_hover'.$micosec;
-		$out.='<script type="text/javascript">';
-		$out.='window.globalThreeDImageHoverActive = "yes";';
-		$out.='window.globalThreeDImageId.push("'.$hoverId.'");';
-		$out.='</script>';
-	}
-	
-	if(!empty($background_image))
-	{
-		$out.='<figure id="'.esc_attr($hoverId).'" data-backtype="image" data-hoverout="'
-		.esc_attr($background_image).'" data-hoverin="'.esc_attr($hover_background_color)
-		.'" class="slide_gallery" style="background: url(\''.esc_url($background_image).'\') no-repeat scroll 0 / cover;">';
-	}
-	else
-	{
-		$out.='<figure id="'.esc_attr($hoverId).'" data-backtype="color" data-hoverout="'
-		.esc_attr($background_color).'" data-hoverin="'.esc_attr($hover_background_color)
-		.'" class="slide_gallery" style="background-color: '.esc_attr($background_color).';">';
-	}
-	
-	$out.='<a href="#"><img src="'.CHILD_URI.'site/img/gallery/gal-icn.png" alt="gallery"></a>';
-	$out.='<a class="gal-span" href="#"><span style="color:'.esc_attr($primary_color).'">'.mtheme_html($gallery_title).'</span></a></figure></div></section>';
-	
-	$out.='<section class="slideshow"><ul>';
-	
-	while($query->have_posts()){
-		$query->the_post();	
-		$haveSlidesInGallery=true;
+
+	$out = '<div class="container">';
+	$out .= '<div class="col-lg-12 col-sm-12 nopadding">';
+
+	$out .= '<div class="carousel slide" id="' . esc_attr($unique_id) . '" data-interval="1000" data-ride="carousel">';
+
+	$indicatorOut = '<ol class="carousel-indicators">';
+	$carouselOut = '<div class="carousel-inner bs-container">';
+	$carouselCount = 0;
+	$firstSlideActive = '';
+	while ($query->have_posts()) {
+		$haveSlidesInGallery = true;
+		$query->the_post();
+		if ($carouselCount == 0) {
+			$firstSlideActive = 'active';
+		} else {
+			$firstSlideActive = '';
+		}
 		ob_start();
-		
-		$temp_out='';
-		if(($slide_title=='show' && $slide_title_position=='top') || ($slide_description=='show' && $slide_description_position=='top'))
-		{
-			$temp_out.='<figcaption>';
-			if($slide_title=='show' && $slide_title_position=='top')
-			{
-				$temp_out.='<h3 style="color:'.esc_attr($heading_color).'">'.get_the_title(get_the_ID()).'</h3>';
+
+		$indicatorOut .= '<li data-target="#' . esc_attr($unique_id) . '" data-slide-to="' . $carouselCount . '" class="' . $firstSlideActive . '"></li>';
+
+		$carouselOut .= '<div class="item ' . $firstSlideActive . '">';
+		$carouselOut .= get_the_post_thumbnail(get_the_ID(), array($thumbnail_width, $thumbnail_height), array('class' => 'img-height-responsive'));
+
+		if ($slide_title == 'show') {
+			$carouselOut .= '<div class="carousel-caption">';
+			if ($slide_title == 'show') {
+				$carouselOut .= '<h3 style="color:' . esc_attr($heading_color) . '">' . get_the_title(get_the_ID()) . '</h3>';
+				//$temp_out.='<div style="text-align:right"> [supsystic-social-sharing id="1"]</div>';
 			}
-			if($slide_description=='show' && $slide_description_position=='top')
-			{
-				$temp_out.='<hr/><p style="color:'.esc_attr($content_color).'">'.get_the_content(get_the_ID()).'</p>';
+			if ($slide_description == 'show') {
+				//$temp_out.='<hr/><p style="color:'.esc_attr($content_color).'">'.get_the_content(get_the_ID()).'Share: <a href="https://www.facebook.com/sharer/sharer.php?u='".wp_get_attachment_image_src(get_the_ID()).'" class="social-btn social-btn-circle" target="_blank"><i class="fa fa-facebook"></i></a></p>';
+				$carouselOut .= '<hr/><p style="color:' . esc_attr($content_color) . '">' . get_the_content(get_the_ID()) . '</p>';
+				//$temp_out.='<hr/><p style="color:'.esc_attr($content_color).'">'.get_the_content(get_the_ID()).'Share: <a href="https://www.facebook.com/sharer/sharer.php?u='.wp_get_attachment_image_src(get_the_ID()).'" class="social-btn social-btn-circle" target="_blank"><i class="fa fa-facebook"></i></a></p>';
 			}
-			$temp_out.='</figcaption>';
+			$carouselOut .= '</div>';
 		}
-		$temp_out.=get_the_post_thumbnail(get_the_ID(),array($thumbnail_width,$thumbnail_height));
-		if(($slide_title=='show' && $slide_title_position=='bottom') || ($slide_description=='show' && $slide_description_position=='bottom'))
-		{
-			$temp_out.='<figcaption>';
-			if($slide_title=='show' && $slide_title_position=='bottom')
-			{
-				$temp_out.='<h3 style="color:'.esc_attr($heading_color).'">'.get_the_title(get_the_ID()).'</h3>';
-			}
-			if($slide_description=='show' && $slide_description_position=='bottom')
-			{
-				$temp_out.='<hr/><p style="color:'.esc_attr($content_color).'">'.get_the_content(get_the_ID()).'</p>';
-			}
-			$temp_out.='</figcaption>';
-		}
-		$out.='<li><figure>';
-		$out.=$temp_out;
-		$out.='</figure></li>';
-		
-		
+		$carouselOut .= '</div>';
+
 		ob_end_clean();
+		$carouselCount++;
 	}
-	
-	if(!$haveSlidesInGallery)
-	{
-		$out.='<li style="width: 660px;height: 1000px;"><figure>';
-		$out.='<h3>No Slides</h3>';
-		$out.='</figure></li>';
+
+	$indicatorOut .= '</ol>';
+
+	$out .= $indicatorOut . $carouselOut;
+
+
+	if (!$haveSlidesInGallery) {
+		$out .= '<li style="width: 660px;height: 1000px;"><figure>';
+		$out .= '<h3>No Slides</h3>';
+		$out .= '</figure></li>';
 	}
-	$out.='</ul><nav><span class="nav-prev fa-chevron-left fa fa-2x "></span><span class="nav-next fa-chevron-right fa fa-2x"></span>';
-	$out.='<span class="close nav-close"><i class="fa fa-times"></i></span></nav></section>';
-	$out.='</div></div>';
-	$out.='<script type="text/javascript">window.globalGridGalleryActive ="yes";';
-	$out.='window.globalGridGallery.push("'.esc_js($unique_id).'");</script>';
-	wp_enqueue_script('classie.grid.gallery-js', CHILD_URI.'site/js/classie.grid.gallery.js',array("jquery-js"),array(),true);
-	wp_enqueue_script('modernizr.gridgallery-js', CHILD_URI.'site/js/modernizr.gridgallery.js',array("jquery-js"),array(),true);
-	wp_enqueue_script('cbpGridGallery-js', CHILD_URI.'site/js/cbpGridGallery.js',array("jquery-js"),array(),true);
-	
+	$out.= '</div>';
+	$out .= '<a class="left carousel-control" href="#' . esc_attr($unique_id) . '" role="button" data-slide="prev">
+        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#' . esc_attr($unique_id) . '" role="button" data-slide="next">
+        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>';
+	$out .= "</div></div>";
+	$out .= '<script type="text/javascript">
+		window.globalBSGalleryActive ="yes";
+		window.globalBSGallery.push(' . esc_attr($unique_id) . ')
+ 	</script>';
+
 	return $out;
 }
 
@@ -3866,7 +3846,10 @@ function hero_background($atts, $content=null) {
 		// SD Mardi Gras Info
 		$contentOut.='<div class="container align-center ticket-options">';
 			$contentOut.='<div class="row">';
-				$contentOut.='<div class="col-xs-12 col-sm-5 ticket-option">';
+				$contentOut.='<div class="col-xs-6 col-sm-5 ticket-option">';
+					$contentOut.='<div class="social-icons">';
+						$contentOut .= '<a href="https://www.facebook.com/events/476822869190142/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/ClubVIPSD" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+					$contentOut.='</div>';
 					$contentOut.='<div class="text-center">';
 						$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/mardi-gras-2017.jpg" alt="San Diego Mardi Gras Block Party, Parade & Celebration Presented by Tickled Pink Production"/>';
 					$contentOut.='</div>';
@@ -3877,7 +3860,10 @@ function hero_background($atts, $content=null) {
 						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/gaslampmardigras/tickets" target="_blank"">Buy Tickets</a>';
 					$contentOut.='</div>';
 				$contentOut.='</div>';
-			$contentOut.='<div class="col-xs-12 col-sm-5 col-sm-offset-2 ticket-option">';
+			$contentOut.='<div class="col-xs-6 col-sm-5 col-sm-offset-2 ticket-option">';
+				$contentOut.='<div class="social-icons">';
+					$contentOut .= '<a href="https://www.facebook.com/events/1103032579731678/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+				$contentOut.='</div>';
 				$contentOut.='<div class="text-center">';
 					$contentOut.='<img class="img-responsive" src="'.CHILD_URI.'img/fat-tuesday-2017.jpg" alt="10th Annual San Diego Fat Tuesday Party Gras Presented by Club VIP and Gaslamp’s Top Nightclubs, Restaurants & Bars"/>';
 				$contentOut.='</div>';
