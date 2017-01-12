@@ -3865,7 +3865,7 @@ function hero_background($atts, $content=null) {
 					$contentOut .= '<a href="https://www.facebook.com/events/1103032579731678/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="text-center">';
-					$contentOut.='<img class="img-responsive fat-tues-logo" alt="10th Annual San Diego Fat Tuesday Party Gras Presented by Club VIP and Gaslamp’s Top Nightclubs, Restaurants & Bars"/>';
+					$contentOut.='<img class="img-responsive fat-tues-logo"/>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="event_time">';
 					$contentOut.='Fat Tuesday, February 28, 2017';
