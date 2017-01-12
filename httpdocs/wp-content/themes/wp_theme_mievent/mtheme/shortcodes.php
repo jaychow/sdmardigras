@@ -3851,7 +3851,7 @@ function hero_background($atts, $content=null) {
 						$contentOut .= '<a href="https://www.facebook.com/events/476822869190142/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/ClubVIPSD" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="text-center">';
-						$contentOut.='<img class="img-responsive mardi-gras-logo" src="'.CHILD_URI.'img/mardi-gras-2017.jpg" alt="San Diego Mardi Gras Block Party, Parade & Celebration Presented by Tickled Pink Production"/>';
+						$contentOut.='<div class="img-responsive mardi-gras-logo"></div>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="event_time">';
 						$contentOut.='Saturday, February 25, 2017';
@@ -3865,7 +3865,7 @@ function hero_background($atts, $content=null) {
 					$contentOut .= '<a href="https://www.facebook.com/events/1103032579731678/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="text-center">';
-					$contentOut.='<img class="img-responsive fat-tues-logo"/>';
+					$contentOut.='<div class="img-responsive fat-tues-logo"></div>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="event_time">';
 					$contentOut.='Fat Tuesday, February 28, 2017';
