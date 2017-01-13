@@ -3857,7 +3857,7 @@ function hero_background($atts, $content=null) {
 						$contentOut.='Saturday, February 25, 2017';
 					$contentOut.='</div>';
 					$contentOut.='<div>';
-						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/gaslampmardigras/tickets" target="_blank"">Buy Tickets</a>';
+						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/partygras/tickets" target="_blank"">Buy Tickets</a>';
 					$contentOut.='</div>';
 				$contentOut.='</div>';
 			$contentOut.='<div class="col-xs-6 col-sm-5 col-sm-offset-2 ticket-option">';
@@ -3871,7 +3871,7 @@ function hero_background($atts, $content=null) {
 					$contentOut.='Fat Tuesday, February 28, 2017';
 				$contentOut.='</div>';
 				$contentOut.='<div>';
-					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/san-diego-fat-tuesday/tickets" target="_blank"">Buy Tickets</a>';
+					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/sandiegofattuesday/tickets" target="_blank"">Buy Tickets</a>';
 				$contentOut.='</div>';
 			$contentOut.='</div>';
 		$contentOut.='</div>';
