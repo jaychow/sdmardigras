@@ -3848,7 +3848,7 @@ function hero_background($atts, $content=null) {
 			$contentOut.='<div class="row">';
 				$contentOut.='<div class="col-xs-6 col-sm-5 ticket-option">';
 					$contentOut.='<div class="social-icons">';
-						$contentOut .= '<a href="https://www.facebook.com/events/476822869190142/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/ClubVIPSD" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+						$contentOut .= '<a href="https://www.facebook.com/events/230868884031790/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/ClubVIPSD" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="text-center">';
 						$contentOut.='<div class="img-responsive mardi-gras-logo"></div>';
@@ -3862,7 +3862,7 @@ function hero_background($atts, $content=null) {
 				$contentOut.='</div>';
 			$contentOut.='<div class="col-xs-6 col-sm-5 col-sm-offset-2 ticket-option">';
 				$contentOut.='<div class="social-icons">';
-					$contentOut .= '<a href="https://www.facebook.com/events/1103032579731678/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
+					$contentOut .= '<a href="https://www.facebook.com/events/1799493933649227/" target="_blank"><i class="fa fa-calendar fa-2x"></i></a> <a href="http://www.facebook.com/GaslampMardiGras" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="text-center">';
 					$contentOut.='<div class="img-responsive fat-tues-logo"></div>';
