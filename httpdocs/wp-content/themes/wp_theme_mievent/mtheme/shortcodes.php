@@ -3854,7 +3854,7 @@ function hero_background($atts, $content=null) {
 						$contentOut.='<div class="img-responsive mardi-gras-logo"></div>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="event_time">';
-						$contentOut.='Saturday, February 10, 2018';
+						$contentOut.='Mardi Gras Party Hub Feb. 9 & 10, 2018';
 					$contentOut.='</div>';
 					$contentOut.='<div>';
 						$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/partygras/tickets" target="_blank"">Buy Tickets</a>';
@@ -3868,7 +3868,7 @@ function hero_background($atts, $content=null) {
 					$contentOut.='<div class="img-responsive fat-tues-logo"></div>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="event_time">';
-					$contentOut.='Fat Tuesday, February 13, 2018';
+					$contentOut.='Fat Tuesday February 13, 2018';
 				$contentOut.='</div>';
 				$contentOut.='<div>';
 					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/sandiegofattuesday/tickets" target="_blank"">Buy Tickets</a>';
