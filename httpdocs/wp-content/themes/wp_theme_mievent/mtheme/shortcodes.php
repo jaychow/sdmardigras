@@ -3874,11 +3874,11 @@ function hero_background($atts, $content=null) {
 				$contentOut.='<div class="event_time">';
 					$contentOut.='San Diego Mardi Gras Masquerade Ball';
 					$contentOut.='<br />';
-					$contentOut.='Mardi Gras HQ: Bassmnt Nightclub';
-					$contentOut.='<br />';
 					$contentOut.='Fat Tuesday, Feb 13, 2018';
 					$contentOut.='<br />';
 					$contentOut.='5pm - 2am Begins at Analog';
+					$contentOut.='<br />';
+					$contentOut.='Mardi Gras HQ: Bassmnt Nightclub';
 				$contentOut.='</div>';
 				$contentOut.='<div>';
 					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/sandiegofattuesday/tickets" target="_blank"">Buy Tickets</a>';
