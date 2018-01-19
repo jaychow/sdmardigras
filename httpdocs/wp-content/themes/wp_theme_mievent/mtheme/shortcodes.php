@@ -3854,9 +3854,9 @@ function hero_background($atts, $content=null) {
 						$contentOut.='<div class="img-responsive mardi-gras-logo"></div>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="event_time">';
-					$contentOut.='2018 Gaslamp Mardi Gras Party Hop!';
+					$contentOut.='Gaslamp Mardi Gras Party Hop!';
 					$contentOut.='<br />';
-					$contentOut.='Friday, Feb 9 + Saturday, Feb 10, 2018';
+					$contentOut.='Feb 9 + Feb 10, 2018';
 					$contentOut.='<br />';
 					$contentOut.='6pm - 2am Begins at Vin De Syrah';
 					$contentOut.='</div>';
@@ -3872,11 +3872,13 @@ function hero_background($atts, $content=null) {
 					$contentOut.='<div class="img-responsive fat-tues-logo"></div>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="event_time">';
-					$contentOut.='2018 San Diego Mardi Gras Masquerade Parade';
+					$contentOut.='San Diego Mardi Gras Masquerade Ball';
 					$contentOut.='<br />';
-					$contentOut.='Fat Tuesday , Feb 13, 2018';
+					$contentOut.='Mardi Gras HQ: Bassmnt Nightclub';
 					$contentOut.='<br />';
-					$contentOut.='5pm - 2am Begins at Vin De Syrah';
+					$contentOut.='Fat Tuesday, Feb 13, 2018';
+					$contentOut.='<br />';
+					$contentOut.='5pm - 2am Begins at Analog';
 				$contentOut.='</div>';
 				$contentOut.='<div>';
 					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/sandiegofattuesday/tickets" target="_blank"">Buy Tickets</a>';
