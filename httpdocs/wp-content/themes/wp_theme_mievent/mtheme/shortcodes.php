@@ -3856,7 +3856,7 @@ function hero_background($atts, $content=null) {
 					$contentOut.='<div class="event_time">';
 					$contentOut.='Gaslamp Mardi Gras Party Hop!';
 					$contentOut.='<br />';
-					$contentOut.='Feb 9 + Feb 10, 2018';
+					$contentOut.='March 1 & 2, 2019';
 					$contentOut.='<br />';
 					$contentOut.='6pm - 2am Begins at Vin De Syrah';
 					$contentOut.='</div>';
@@ -3874,7 +3874,7 @@ function hero_background($atts, $content=null) {
 				$contentOut.='<div class="event_time">';
 					$contentOut.='San Diego Mardi Gras Masquerade Ball';
 					$contentOut.='<br />';
-					$contentOut.='Fat Tuesday, Feb 13, 2018';
+					$contentOut.='March 5, 2019';
 					$contentOut.='<br />';
 					$contentOut.='5pm - 2am Begins at Analog';
 					$contentOut.='<br />';
