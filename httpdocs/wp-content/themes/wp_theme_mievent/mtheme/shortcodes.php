@@ -3844,6 +3844,8 @@ function hero_background($atts, $content=null) {
 			}
 		}
 		// SD Mardi Gras Info
+		$fatTues   = get_post( 672 )->post_content;
+		$mardiGras = get_post( 674 )->post_content;
 		$contentOut.='<div class="container align-center ticket-options">';
 			$contentOut.='<div class="row">';
 				$contentOut.='<div class="col-xs-6 col-sm-5 ticket-option">';
@@ -3854,6 +3856,7 @@ function hero_background($atts, $content=null) {
 						$contentOut.='<div class="img-responsive mardi-gras-logo"></div>';
 					$contentOut.='</div>';
 					$contentOut.='<div class="event_time">';
+					$contentOut.= $mardiGras;
 					$contentOut.='Gaslamp Mardi Gras Party Hop!';
 					$contentOut.='<br />';
 					$contentOut.='March 1 & 2, 2019';
@@ -3872,13 +3875,7 @@ function hero_background($atts, $content=null) {
 					$contentOut.='<div class="img-responsive fat-tues-logo"></div>';
 				$contentOut.='</div>';
 				$contentOut.='<div class="event_time">';
-					$contentOut.='San Diego Mardi Gras Masquerade Ball';
-					$contentOut.='<br />';
-					$contentOut.='March 5, 2019';
-					$contentOut.='<br />';
-					$contentOut.='5pm - 2am Begins at Analog';
-					$contentOut.='<br />';
-					$contentOut.='Mardi Gras HQ: Bassmnt Nightclub';
+					$contentOut.= $fatTues;
 				$contentOut.='</div>';
 				$contentOut.='<div>';
 					$contentOut.='<a class="first-button button button-large radius-none btn-effect wow  fadeIn" href="https://nightout.com/events/sandiegofattuesday/tickets" target="_blank"">Buy Tickets</a>';
