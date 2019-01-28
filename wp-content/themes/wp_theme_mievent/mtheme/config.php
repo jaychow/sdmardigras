@@ -1729,7 +1729,7 @@ $config = array (
 						'description' => __('Enter Social Link', 'mtheme'),
 						'id' => 'event_link_btn1_social_1',
 						'type' => 'text',
-						'default' => 'https://www.facebook.com/events/1254009684713957'
+						'default' => 'https://www.facebook.com/events/814428198756722'
 					),
 					array(
 						'name' => __('Social Link #2', 'mtheme'),

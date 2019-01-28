@@ -3576,11 +3576,11 @@ function hero_background($atts, $content=null) {
 	}
 	if(empty($btn1_social_link_1))
 	{
-		$btn1_social_link_1=MthemeCore::getPostMeta($slider_id,$pre."event_btn1_social_link_1","https://www.facebook.com/events/1254009684713957");
+		$btn1_social_link_1=MthemeCore::getPostMeta($slider_id,$pre."event_link_btn1_social_1","https://www.facebook.com/events/1254009684713957");
 	}
 	if(empty($btn1_social_link_2))
 	{
-		$btn1_social_link_2=MthemeCore::getPostMeta($slider_id,$pre."event_btn1_social_link_2","http://www.facebook.com/ClubVIPSD");
+		$btn1_social_link_2=MthemeCore::getPostMeta($slider_id,$pre."event_link_btn1_social_2","http://www.facebook.com/ClubVIPSD");
 	}
 	if(empty($register_link))
 	{
